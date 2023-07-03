@@ -1,0 +1,20 @@
+.left-guy-zyzz{
+    position: absolute;
+    bottom: 0px;
+    right: 6px;
+    width: 300px;
+    height: 550px;
+}
+body{
+    width: 100%;
+    background-color: blueviolet;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+/* .webname{
+    color: orangered;
+} */

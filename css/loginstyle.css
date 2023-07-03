@@ -1,0 +1,147 @@
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 100px;
+    color: RGB(176, 196, 222);
+    /* background-color: RGB(152, 255, 178); */
+    text-align: center;
+    padding: 17px;
+    padding-top: 0px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3); 
+}
+.center{
+        position:static;
+        left: 600px;
+        border: 5px ;
+        margin: auto;
+        width: 23%;
+        height: 275px;
+        padding:30px;
+        text-align: center;
+        color: cornsilk;
+        font-family: 'Montserrat', sans-serif; 
+      
+    /* display: block;
+    margin: auto; */
+}
+
+
+
+
+
+head,body {
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+    
+    animation: color-change 22s infinite;
+}
+@keyframes color-change {
+    0% {background-color: rgb(28, 35, 49);}
+    10% {background-color:  rgb(44, 62, 80);}
+    20% {background-color:  rgb(52, 73, 94);}
+    30% {background-color: rgb(84, 110, 122);}
+    40% {background-color:  rgb(153, 45, 34);}
+    50% {background-color: rgb(192, 57, 43);}
+    60% {background-color: rgb(153, 45, 34);}
+    70% {background-color: rgb(108, 52, 131);}
+    80% {background-color: rgb(38, 50, 56);}
+    90% {background-color: rgb(66, 66, 66);}
+    100% {background-color: rgb(28, 35, 49);}
+}
+/* 
+ rgb(84, 110, 122)
+input:focus {
+    border: 2px solid #007bff; 
+    transition: border-color 0.3s ease-in-out; 
+} */
+input{
+    /* color:  RGB(230, 230, 250); */
+    font-family: 'Montserrat'; 
+}
+#border{
+    border: 5px ridge RGB(192, 192, 192);
+}
+.rightbottom {
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+    height: 490px;
+    width: 200px;
+    object-fit: cover;
+    /* border-radius: 50%;
+    border: 2px solid #fff; */
+    
+}
+.leftbottom {
+    position: absolute;
+    bottom: 0px;
+    left: -33px;
+    height: 440px;
+    width: 525px;
+    object-fit: cover;
+}
+img{
+    -webkit-user-drag: none; /* Chrome, Safari, Opera */
+    -user-drag: none; /* Standard syntax */
+    -khtml-user-drag: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+}
+.back,#password {
+    background: linear-gradient(to right, RGB(128, 0, 32), RGB(54, 69, 79), RGB(47, 79, 79),  RGB(0, 0, 128),  RGB(48, 25, 52));
+    background-size: 400% 400%;
+    animation: color-change 20s infinite;
+}
+/* .red:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: radial-gradient(circle at center, #ff0000, #0000ff);
+    animation: circle-grow 0.5s forwards;
+
+}
+    /* color: red;
+    font-weight: bold;
+    cursor: pointer; */
+    
+
+/* }
+@keyframes circle-grow {
+    from {
+      width: 0;
+      height: 0;
+      opacity: 1;
+    }
+    to {
+      width: 200px;
+      height: 200px;
+      opacity: 0;
+    }
+  }
+ */
+ /* button {
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+  
+button:hover {
+    background-color: #aaa;
+  }
+.no:hover{
+    transform: translateX(50px);
+    background-color: #aaa;
+  } */
